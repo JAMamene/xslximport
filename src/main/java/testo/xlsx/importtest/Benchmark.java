@@ -35,7 +35,7 @@ public class Benchmark {
                     System.out.println(importType.importFile(file, emptyStream).toBench());
                 }
                 else {
-                    System.out.println(importType.importFile(file, System.out));
+                    System.out.println(importType.importFile(file, emptyStream));
                 }
                 emptyStream.flush();
                 System.gc();
